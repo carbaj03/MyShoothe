@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            var theme by remember { mutableStateOf(PuppyTheme.Light) }
             MySootheTheme {
                 MySootheApp()
             }
